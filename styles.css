@@ -1,0 +1,224 @@
+:root {
+    --color-principal:#A697D6;
+    --color-secundario:rgb(22, 22, 24);
+    --color-tipografia:#ffff;
+
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 62,5%;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;    
+    background-color: var(--color-secundario);
+    color: #ffff;
+   
+}
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(imagenes/agatha_fidelis58-20180729.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.countdown {
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to right, #a890b0, #b17daa, #bd679b, #c84d85, #d02c67);    padding-top: 0.6rem;
+}
+p {
+    margin: 0;
+}
+.story {
+    background-color: var(--color-secundario);
+    color: white;
+    padding: 2rem;
+}
+
+.info {
+    padding: auto;
+    color:var(--color-tipografia);
+}
+span {
+    font-size: 1.8rem;
+}
+.info p {
+    padding: 20px 0 30px 0;
+}
+.container-info {
+    padding-top: 20px;
+}
+.info a {
+    color: white;
+    background-color: #CD3B73;    
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.site img{
+    border-radius: 90px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.galeria {
+    margin-top: 20px;
+   height: 450px;
+   background-image: linear-gradient(to right, #a890b0, #b17daa, #bd679b, #c84d85, #d02c67);    padding-top: 0.6rem;
+}
+.uno {
+    background-image: url(imagenes/agatha_fidelis20-20180729.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dos {
+    background-image: url(imagenes/agatha_fidelis02-20180729.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tres {
+    background-image: url(imagenes/agatha_fidelis21-20180729.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cuatro {
+    background-image: url(imagenes/agatha_fidelis09-20180729.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pago p{
+    margin: 5px 0 20px 0;
+}
+.pago a {
+    color: white;
+    background-color: #d02c67;    
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.redes {
+    height: auto;
+    margin: 40px 0px 20px 0;
+    background-image: url(https://andrescardozo.com/wp-content/uploads/2019/09/fondo-instagram.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    
+}
+.redes a {
+    color: #d02c67;
+    background-color: #ffffff;    
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin: 5px;
+}
+.redes p {
+    margin-bottom: 30px;
+}
+
+.music {
+    margin:30px;
+}
+.music p {
+    margin:15px;
+}
+.music a {
+    color: #d02c67;
+}
+.music a:hover {
+    color: var(--color-principal);
+    background-color: unset;
+}
+.music .spotify {
+    color: #d02c67;
+    background-color: #ffffff;    
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.music .spotify:hover {
+    color: black;
+    background-color: var(--color-principal);
+   
+}
+.asistencia {
+    background-image: url(imagenes/agatha_fidelis22-20180729.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.asistencia a {
+    color: white;
+    background-color: #d02c67;
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin: 10px;
+}
+a:hover {
+    color: black;
+    background-color: var(--color-principal);
+}
+.galeria {
+    animation-duration: 7s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 100%;
+    }
+  }
+ 
+  .logo {
+    animation-duration: 7s;
+    animation-name: logo;
+  }
+  @keyframes logo {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 100%;
+    }
+  }
+  footer {
+      height: auto;
+      background-image: linear-gradient(to right, #a890b0, #b17daa, #bd679b, #c84d85, #d02c67);    padding-top: 0.6rem;
+      padding-top: 10px;
+      color: white;
+  }
+  .container ul {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin: 0;
+  }
+  footer a {
+      color: white;
+  }
+  footer a:hover {
+      color: black;
+      background-color: var(--color-principal);
+  }
